@@ -1,0 +1,32 @@
+# === Python/Django ===
+__pycache__/       # Thư mục cache Python
+*.py[cod]          # File biên dịch Python
+*.sqlite3          # Database SQLite
+*.log              # File log
+venv/              # Thư mục ảo Python
+.env               # Biến môi trường
+/media             # Thư mục upload Django
+/qrcodes           # Thư mục QR code (nếu có)
+
+# === Node.js/React (nếu có frontend) ===
+node_modules/      # Thư viện frontend
+npm-debug.log*     # Log lỗi npm
+yarn-error.log*    # Log lỗi yarn
+/dist              # Thư mục build
+/.next             # Next.js build (nếu dùng)
+
+# === IDE/Editor ===
+.vscode/           # Cấu hình VS Code
+.idea/             # Cấu hình JetBrains IDE
+*.swp              # File tạm Vim
+*.swo              # File tạm Vim
+
+# === Hệ điều hành ===
+.DS_Store          # MacOS
+Thumbs.db          # Windows
+desktop.ini        # Windows
+
+# === Khác ===
+*.env              # Tất cả file môi trường
+*.bak              # File backup
+*.tmp              # File tạm
