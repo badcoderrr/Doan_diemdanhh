@@ -1,1 +1,1 @@
-web: gunicorn hethong_diemdanh.wsgi --log-file -
+web: gunicorn doan_diemdanh_new.wsgi --bind 0.0.0.0:\$PORT --workers 3 --timeout 120
