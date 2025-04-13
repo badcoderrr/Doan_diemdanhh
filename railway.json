@@ -2,7 +2,7 @@
     "build": {
       "builder": "NIXPACKS",
       "config": {
-        "startCommand": "python manage.py migrate && gunicorn doan_diemdanh_new.wsgi --bind 0.0.0.0:$PORT"
+        "startCommand": "gunicorn doan_diemdanh_new.wsgi --bind 0.0.0.0:8000 --workers 3"
       }
     }
   }
